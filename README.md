@@ -53,15 +53,19 @@ If in case we need to use Postgre SQL or Mysql , we need to pass Database URL , 
 git clone https://github.com/your-username/splitwise-app.git
 cd splitwise-app
 ```
+### **2. Run below command to build jar file**
+```sh
+mvn clean package
+```
 
-### **2. Run below docker commands**
+### **3. Run below docker commands**
 
 ```sh
 docker build -t splitwise-app . --->  To Build docker image from image file
 docker run -p 8080:8080 splitwise-app  ---> Run our docker container
 
 ```
-### **3. Open Postman**
+### **4. Open Postman**
 ### **User APIs**
 | POST   | `/api/users`      | Create a new user      |
 
