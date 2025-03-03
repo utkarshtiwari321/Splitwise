@@ -14,13 +14,14 @@ If in case we need to use Postgre SQL or Mysql , we need to pass Database URL , 
 - **Balance Calculation**: View individual user balances.
 - **Settlement Handling**: Allow users to settle pending amounts.
 
-## Technologies Used
+## Technologies Used/Pre-requisities
 
 - **Java 17**
 - **Spring Boot** (Spring MVC, Spring Data JPA, Spring Security)
 - **H2 Database** (for development and testing)
 - **Maven** (for dependency management and build)
 - **Docker** (for containerization)
+- **Docker Desktop** (must needed)
 
 ## API Endpoints
 
